@@ -75,7 +75,7 @@ function App() {
       <nav className="nav shell">
         <a href="#home" className="brand" aria-label="Anurag home">
           <img src="/anurag-logo.jpg" alt="Anurag's pixel-art logo" className="brand-avatar"/>
-          <span>Anurag<span className="brand-muted">.dev</span></span>
+          <span>AnuragJadoun</span>
         </a>
         <div className="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
         <a href={resumeUrl} className="nav-resume" download><Download size={15}/> Resume</a>
@@ -142,7 +142,7 @@ function App() {
       <div className="contact-links reveal"><p className="contact-label">FIND ME ONLINE</p>{socials.map(({label, href, Icon}) => <a href={href} key={label} target="_blank" rel="noreferrer"><span className="contact-social-icon"><Icon size={19}/></span><span>{label}</span><ArrowUpRight size={16}/></a>)}</div>
     </div></section>
 
-    <footer className="footer shell"><a href="#home" className="brand"><img src="/anurag-logo.jpg" alt="" className="brand-avatar"/><span>Anurag<span className="brand-muted">.dev</span></span></a><p>Made with curiosity and code.</p><a href={resumeUrl} download className="footer-resume"><Download size={14}/> Download resume</a><a href="#home" className="back-top">BACK TO TOP ↑</a><span className="copyright">© {new Date().getFullYear()} Anurag Singh Jadoun</span></footer>
+    <footer className="footer shell"><a href="#home" className="brand"><img src="/anurag-logo.jpg" alt="" className="brand-avatar"/><span>AnuragJadoun</span></a><p>Made with curiosity and code.</p><a href={resumeUrl} download className="footer-resume"><Download size={14}/> Download resume</a><a href="#home" className="back-top">BACK TO TOP ↑</a><span className="copyright">© {new Date().getFullYear()} Anurag Singh Jadoun</span></footer>
   </main>;
 }
 
